@@ -1,11 +1,18 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <header>
+    <h1>Weather</h1>
+  </header>
+<main>
+  <input type="text" class="city" placeholder="Enter your city name...">
+  <button class="search" @click="">Search</button>
+</main>
 </template>
 
-<style scoped></style>
+<script>
+export default {
+  name:'App'
+};
+</script>
+
+<style></style>
+
