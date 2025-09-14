@@ -28,3 +28,8 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# .gitignore
+node_modules/
+dist/
+.env
